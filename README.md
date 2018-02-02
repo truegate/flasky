@@ -13,6 +13,3 @@ Perseverance
 
 ### Feature
 This line is added by merge master
-
-* --no-ff
-* Bug分支
