@@ -1,5 +1,14 @@
+# Need to setup environment variables
+#
+# $MAIL_USERNAME
+# $MAIL_PASSWORD
+# $SECRET_KEY
+# $FLASKY_ADMIN     #This is an email address which receive the urgent mail
+
 import os
+
 basedir = os.path.abspath(os.path.dirname(__file__))
+
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
